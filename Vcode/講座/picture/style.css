@@ -1,0 +1,37 @@
+body {
+    background-color: antiquewhite;
+}
+
+.symbol{
+    text-align: right;
+}
+
+head {
+    background-color: rgb(187, 118, 28);
+}
+
+h1{
+    color: red;
+    font-size: 40px;
+    marker: none;
+    text-align: center;
+    font-style: italic;
+}
+
+.picture{
+    display: flex;
+}
+
+.pic1 ,.pic2, .pic3{
+    font-size: 20px;
+}
+
+
+.box2{
+    padding: 8px 19px;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #cde4ff;
+    border-top: solid 5px #5989cf;
+    border-bottom: solid 5px #5989cf;
+}

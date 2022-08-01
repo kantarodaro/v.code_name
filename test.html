@@ -1,0 +1,65 @@
+<!--1-->
+<!DOCTYPE html>  <!--これからhtmlのコードを打ってくださいの意味-->
+<link rel="stylesheet" href="test.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テスト</title>  <!--サイトのタイトル名-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--2-->
+<body>
+    <h1 class="head">中央大学</h1>
+    <h3 style="text-align:center">〜八王子から世界へ🌐〜</h3>
+<!--3-->
+<!--imgタグに合わせられるのはjpeg等のみ-->
+    <br><hr><br>  <!--<hr>タグは使うブラウザによって線の太さ異なる-->
+    <h3>大学校風🎒</h3>
+    <img src="chuo_image.jpeg" width="300" height="200"> 
+    <h3>部活風景🏐</h3>
+    <img src="bukatsu_pic.jpeg" width="300" height="200">
+<!--4-->
+<br><br>
+<h2>概要</h2>
+<main>&nbsp;&nbsp;1885年（明治18年）7月8日に増島六一郎、菊池武夫、穂積陳重、藤田隆三郎ら18人の法律家により英吉利法律学校として設立され、この日が創立記念日となっている。
+    尚、6月27日に東京府知事に最初の出願を行ったが書類不備で下げ戻しとなっている。当初は英国法に関する教育機関であったが、日本でも近代法が整備されると順次、
+    国内法も教授するようになり、校名も東京法学院、東京法学院大学と変更した。1905年（明治38年）8月に経済学科の設置によって中央大学と改称、1920年（大正9年）
+    に日本の私立大学では同年大学に昇進した早稲田大学・慶應義塾大学についで、最も古い段階で大学令に基づく大学となった。
+    <br>&nbsp;&nbsp;法学部は「法科の中央」と呼ばれ、日本の私立大学を代表する法学部として名高い。商学部や経済学部は、公認会計士試験発足時から1970年代初期まで一位を保持し、
+    会計分野を始め財界など多くの分野に人材を輩出してきた。2015年11月に中長期事業計画「Chuo Vision 2025」を策定、
+    法学部を第一候補とする都心移転計画や多摩キャンパスでの新学部開設計画、グローバル化推進などを発表した。この計画をもとに2019年4月には国際経営学部・国際情報学部を設置。
+    2021年度までに、多摩キャンパスにおいて新棟（グローバル館・国際教育寮、Forest Gateway Chuo）を整備した。また、2023年から2024年にかけて
+    法学部と法学研究科を新設の茗荷谷キャンパス（仮称）へ、2023年ごろに法科大学院とビジネススクールを建て替え後の駿河台記念館内へ、それぞれ移転させる予定である。</main>
+    <br>
+    <div>【Wikipediaより】</div>
+    <div>Detail: <a href="https://www.chuo-u.ac.jp/" target="blank">大学公式HP</a></div>  <!--targetは応用-->
+<!--5-->
+<div>
+    <br><hr>
+        <h2>お問い合せフォーム</h2>
+        <form action="#" method="post">
+
+            <p><label for="name">お名前（必須):</label></p>
+            <input type="text" name="name" id="name" value="">      <!--value=初期値=なしだから空欄-->
+            
+
+            <p><label for="grade">学年 (必須):</label></p>
+                <select name="grade" id="grade">
+                    <option hidden>選択してください</option>
+                    <option value="1">大学1年</option>
+                    <option value="2">大学2年</option>
+                    <option value="3">大学3年</option>
+                    <option value="4">大学4年<option>
+                </select>
+
+            <p><label for="email">メールアドレス(必須):</label></p>
+            <input type="email" name="email" id="email" value="">
+
+            <p><label for="content">お問合せ内容(必須):</label></p>
+            <textarea name="comment" id="content" cols="30" rows="5"></textarea>
+            <p><input type="submit" value="送信する"></p>
+        </form>
+</body>
+</html>

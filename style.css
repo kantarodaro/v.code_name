@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+  .item{
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    padding : 3%;
+    margin : 3%;
+    background-color: #c97796;
+    color: white;
+  }

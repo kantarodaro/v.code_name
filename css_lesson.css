@@ -1,0 +1,27 @@
+h1{
+    color:red;
+    background-color: aquamarine;
+    width: calc(100%/5);
+    display: flex;
+}
+
+#big{
+    color:green;
+    font-size: 15px;
+}
+
+#small{
+    color:chocolate;
+    font-size: 15px;
+}
+article *{
+    margin: 50px 50px 50px 50px;
+}
+
+.big{
+    color: aqua;
+}
+
+.small{
+    color: blueviolet;
+}

@@ -1,0 +1,23 @@
+.container{
+    width: 1000px;
+    background-color: coral;
+    display: flex;
+}
+.item{
+    height: 200px;
+}
+.item1{
+    background-color: pink;
+    width: 1000px;
+    /*flex-grow: 6;*/ /*残りの6/7増える*/
+    flex-shrink: 1;
+    /*flex-basis: */ /*widthと一緒*/
+}
+
+.item2{
+    background-color: skyblue; 
+    width: 2000px;
+    /*flex-grow: 1;*/ /*残りの1/7増える*/
+    flex-shrink: 2;
+    /*flex-basis */ /*widthと一緒(px用いる)*/
+}
